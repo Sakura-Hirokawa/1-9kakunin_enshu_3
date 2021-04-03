@@ -9,7 +9,30 @@ header {
   background-color: #ff9a4b;
 }
 
-footer{
+main {
+  width: 960px;
+  margin: 50px 0;
+}
+
+.step-box {
+  width: 300px;
+  padding: 10px;
+  background-color: #eeeeee;
+}
+
+.step-image {
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-size: cover;
+  background-position: bottom;
+  margin-bottom: 15px;
+}
+
+.step-title{
+  padding-bottom: 5px;
+}
+
+footer {
   height: 50px;
-  background-color: #AAAAAA;
+  background-color: #aaaaaa;
 }
