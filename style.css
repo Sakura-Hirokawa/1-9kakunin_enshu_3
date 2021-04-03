@@ -13,7 +13,6 @@ main {
   width: 960px;
   margin: 50px auto;
   display: flex;
-  justify-content: center;
 }
 
 .step-box {
@@ -25,7 +24,7 @@ main {
 }
 
 .step-box:last-child {
-  margin: 0;
+  margin-right: 0;
 }
 
 .step-img1 {
@@ -33,7 +32,6 @@ main {
   background-image: url(img/flow01.png);
   background-size: cover;
   background-position: bottom;
-  margin-bottom: 15px;
 }
 
 .step-img2 {
@@ -41,7 +39,6 @@ main {
   background-image: url(img/flow02.png);
   background-size: cover;
   background-position: bottom;
-  margin-bottom: 15px;
 }
 
 .step-img3 {
@@ -49,14 +46,14 @@ main {
   background-image: url(img/flow03.png);
   background-size: cover;
   background-position: bottom;
-  margin-bottom: 15px;
 }
 
-.step-title {
-  padding-bottom: 5px;
+.title {
+  margin:15px 0 5px;
 }
 
 .step-num {
+  padding:3px;
   color: #fff;
   background-color: #ff9a4b;
   position: absolute;
